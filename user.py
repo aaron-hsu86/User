@@ -10,16 +10,7 @@ class User():
 
     # print all of the users' details on separate lines
     def display_info(self):
-        # using one print line
         print(f'{self.first_name}\n{self.last_name}\n{self.email}\n{self.age}\n{self.is_rewards_member}\n{self.gold_card_points}')
-        
-        # # using multiple print lines
-        # print(self.first_name)
-        # print(self.last_name)
-        # print(self.email)
-        # print(self.age)
-        # print(self.is_rewards_member)
-        # print(self.gold_card_points)
 
     # change user's member status to True and set their gold card points to 200
     def enroll(self):

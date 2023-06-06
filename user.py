@@ -32,10 +32,12 @@ class User():
 
 user_1 = User('John', 'Doe', 'john@halo.com', 42)
 user_2 = User('Jane', 'Doe', 'jane@mystery.com', 25, True, 500)
+user_1.display_info()
+user_1.enroll()
 user_1.spend_points(50)
+user_1.display_info()
 user_2.enroll()
 user_2.spend_points(80)
-user_1.display_info()
 user_2.display_info()
 user_3 = User('Jack', 'Daniels', 'jack@daniels.com', 999)
 user_3.spend_points(100)

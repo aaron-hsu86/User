@@ -16,7 +16,7 @@ class User():
     def enroll(self):
         if self.is_rewards_member == True:
             print(f'{self.first_name} is already a member.')
-            return False
+            # return False # assignment made it seem like they wanted a False return
         else:
             print(f'{self.first_name} is enrolled into Rewards Membership!')
             self.is_rewards_member = True
